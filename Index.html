@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Venta de productos alimenticios">
+    <meta name="keywords" content="Mermelada, chocolates, galletas">
+    <meta name="author" content="Gladis Almendras">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Victoria</title>
+    <link rel="stylesheet" href="Assets/CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/465cd6fba0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+
+<body>
+    <header>
+    <!--navbar Inicio-->
+        <a href="#" class="ImagenMarca"><img src="Assets/Img/Recurso 11.png" alt=""></a>
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="ïcons">
+            <div class="fa-solid fa-bars" id="menu-btn"></div>
+            <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+            <div class="fa-solid fa-basket-shopping" id="shopping-btn"></div>
+            <div class="fa-solid fa-user-large" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="busca aqui...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+        <form action="" class="login-form">
+            <h3>Iniciar sesión</h3>
+            <input type="email" placeholder="Ingrese su email" class="box">
+            <input type="password" placeholder="Contraseña" class="box">
+            <p>olvide mi contraseña  <a href="#">Presione Aquí</a></p>
+            <p>registrese aquí  <a href="#">Crear Cuenta</a></p>
+            <input type="submit" value="Iniciar" class="btn">
+        </form>
+        <!--navbar termina-->
+    </header>      
+<br>
+<!--carrusel Home comienza-->
+<section class="home" id="home">
+      <div class="swiper homeslider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background: url(Assets/Img/Carrusel\ 2.jpg) no-repeat;">
+                <div class="content">
+                    <span>Productos Artesanales</span>
+                    <h3>Deliciosos productos artesanales</h3>
+                    <a href="#" class="comprar-btn">Comprar</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(Assets/Img/Carrusel\ 3.jpg) no-repeat;">
+                <div class="content">
+                    <span>Productos Artesanales</span>
+                    <h3>Productos hecho a mano</h3>
+                    <a href="#" class="comprar-btn">Comprar</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(Assets/Img/Carrusel\ 4.jpg) no-repeat;">
+                <div class="content">
+                    <span>Productos Artesanales</span>
+                    <h3>Mermeladas caseras</h3>
+                    <a href="#" class="comprar-btn">Comprar</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+<!--carrusel Home termina-->
+<br>
+<br>
+<br>
+<!--Seccion Productos Inicia-->
+<section class="products" id="products">
+    <h1 class="heading"><span>Nuestros Productos</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="Assets/Img/Producto galletas de Avena.jpg" alt="">
+                    <h3>Galletas de Avena Manzana</h3>
+                    <h4>150 Gramos</h4>
+                    <div class="price">$2000</div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Assets/Img/Producto Pan de Pascua 2.jpg" alt="">
+                    <h3>Pan de Pascua</h3>
+                    <h4>500 Gramos</h4>
+                    <div class="price">$4500</div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Assets/Img/Producto Mantequilla de Maní.jpg" alt="">
+                    <h3>Mantequilla de Maní</h3>
+                    <h4>250 Gramos</h4>
+                    <div class="price">$4500</div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Assets/Img/Producto Mermelada de Naranja Zanahoria.jpg" alt="">
+                    <h3>Mermelada Zanahoria Naranja</h3>
+                    <h4>260 Gramos</h4>
+                    <div class="price">$3500</div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="Assets/Img/Producto Mermelada de Zucchini 1.jpg" alt="">
+                    <h3>Mermelada Zapallo Italiano</h3>
+                    <h4>260 Gramos</h4>
+                    <div class="price">$3500</div>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Seccion Productos Termina-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Seccion Nosotros Comienza-->
+<h1 class="heading2">Nosotros</h1>
+<section class="nosotros" id="nosotros">
+        <div class="box">
+        <div class="image">
+            <img src="Assets/Img/NOSOTROS.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3 class="titulo">Somos LA Victoria Productos Artesanales</h3>
+            <p>Nuestra microempresa familiar, nace en el 2019, con la venta de nuestros primeros frascos de mermeladas. desde entonces
+                hemos incorporado nuevos productos, como nuestras mermeladas gourmet, nuestros productos de pasteleria tradicional chilena,
+                bollería y chocolateria artesanal. Cuidamos la preparacion de cada producto para entregar lo mejor de nostoros en su mesa.</p>
+            <a href="#" class="btn">Leer más</a>
+        </div>
+    </div>
+</section>
+<!--Seccion Nosotros Termina-->
+<!--Footer Comienza-->
+<section class="footer">
+    <br>
+    <div class="boxcontainer">
+        <div class="box">
+            <a href="#" class="Imagenmarca"><img src="Assets/Img/Recurso 7.png" alt=""></a>
+            <p>La Victoria productos artesanales para compartir con nosotros sus experiencias, siguenos en nuestras redes sociales</p>
+            <div class="share">
+                <a href="#" class="fa-brands fa-square-facebook"></a>
+                <a href="#" class="fa-brands fa-square-instagram"></a>
+                <a href="#" class="fa-brands fa-square-whatsapp"></a>
+                <a href="#" class="fa-brands fa-square-twitter"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Información de Contacto</h3>
+            <a href="#" class="links"><i class="fa-solid fa-phone"></i> +56 9 9140 9874</a>
+            <a href="#" class="links"><i class="fa-solid fa-envelope"></i> lavictoria.productosnaturales@gmail.com</a>
+            <a href="#" class="links"><i class="fa-solid fa-envelope"></i> maria.vallejos.c@gmail.com</a>
+            <a href="#" class="links"><i class="fa-solid fa-location-dot"></i> J Alpi 90, San Pedro de la Paz, Concepción</a>
+        </div>
+        <div class="box">
+            <h3>Links</h3>
+            <a href="#" class="links"><i class="fa-solid fa-angle-right"></i>Inicio</a>
+            <a href="#" class="links"><i class="fa-solid fa-angle-right"></i>Productos</a>
+            <a href="#" class="links"><i class="fa-solid fa-angle-right"></i>Nosotros</a>            
+        </div>
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Suscríbete a nuestro newsletter</p>    
+            <input type="email" placeholder="tu email" class="email">
+            <input type="submit" value="Suscríbete" class="btn">
+        </div>
+    </div>
+</section>
+<!--Footer Termina-->
+
+
+<!--link to swaper scrip java-->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> 
+<!--link a la hoja script de Java-->
+<script src="Assets/JS/script.js"></script>
+
+
+</body>
+</html>
